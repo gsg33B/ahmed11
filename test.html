@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css"/>
+  <title>Lugo Store</title>
+  <style>
+    .body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "popins" , sans-serif;
+    }
+    
+    .header {
+      background-color: #0171f9; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 50px;
+    }
+.logo {
+  width: 100px;
+}
+.btn{
+  background-color: #EE626B;
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: #ffffff;
+    border: none;
+}
+.btn:hover{
+  background-color: #2386fe;
+  }
+  .header-links a {
+color: white;
+padding: 5px 35px;
+text-decoration: none;
+border-radius: 15px;
+  }
+
+  .header-links a:hover{
+    background-color: #2386fe;
+  }
+
+  .header-links button:hover{
+    background-color: #f2858c;
+  }
+
+  .landing-page {
+    background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:25px 50px; 
+  color: #ffffff;
+border-radius:0 0 50px 50px;
+
+  }
+
+  .landing-page-left-section{
+    width: 500;
+  }
+  
+  .landing-page-search input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 0 10px;
+  }
+  .landing-page-search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+  }
+  .landing-page-imag-container img {
+border-radius: 20px;
+width: 250px;
+
+  }
+  .trending-conteiner{
+    padding: 25px 50px;
+  }
+.trending-conteiner span {
+  color: #EE626B;
+  text-transform: uppercase;
+}
+
+  .trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .trending-header h1 {
+    margin-top: 0;
+  }
+
+  .card {
+    width: 300px;
+background-color: #EEEEEE;
+border-radius: 20px;
+  }
+.card .thump { 
+  border-radius: 20px 20px 0px 0px;
+}
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 20px;
+  }
+.card-info img {
+  width: 50px;
+}
+     
+  
+
+  </style>
+</head>
+<body>
+  <!--HEADER-->
+  <div class="header">
+    <img class="logo" src="imags/logo.png" />
+  <div class="header-links">
+<a href="test.html"> Home</a>
+<a href="#">Our Shope</a>
+<a href="#">Contact</a>
+<a href="#">about</a>
+<button class="btn">Sign in</button>
+  </div>
+  <div>Test</div>
+  </div>
+  <!--LANDING PAGE-->
+  <div class="landing-page"> 
+    <div class="landing-page-left-section">
+      <span>Welcom to lugx!</span>
+      <h1>Best Gaming Site Ever</h1>
+      <p>
+        LUGX Gaming is free Bootstrap 5 HTML CSS website template for your
+            gaming websites. You can download and use this layout for commercial
+            purposes. Please tell your friends about TemplateMo.
+      </p>
+      <div class="landing-page-search">
+        <input placeholder="  Start typing..."/>
+        <button class="btn">Search</button> 
+      </div>
+    </div>
+    <div class="landing-page-imag-container">
+      <img class="images/top-game-30.jpg"/>
+    </div>
+  </div>
+
+  <!--TRANDING GAMES-->
+  <div class="trending-conteiner">
+    <span>Trending</span>
+  </div class="trendingHeader">
+  <h1>Trending Gams</h1>
+  <button class="btn">view all</button>
+  <div>
+    <div class="trending-cards"></div>
+    <div class="card">
+<img class="thump" src="images/trending-01.jpg" />
+<div class="card-info"></div>
+<div class="card-name"></div>
+<p>Action</p>
+<h3>Assasns creed</h3>
+       </div>
+          <a>
+              <img src="images/online-shopping.png"/>
+           </a>
+         </div>
+       
+        <div>
+      </div>
+  </div>
+</body>
